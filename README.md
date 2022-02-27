@@ -7,10 +7,13 @@ Design yang dibuat pada latihan 3 soal a yaitu menerapkan konsep composition yan
 2. Disk : type(SDD/HDD), capacity, price
 3. Ram : capacity, price
 4. Pc : processor, disk, ram, totalPrice
+
+
 Kemudian akan dihubungkan keempat kelas tersebut sehingga kelas PC akan memuat beberapa kelas diantaranya :
 - kelas processor.
 - kelas disk,
 - kelas ram.
+
 Maka, dapat disimpulkan bahwasanya "PC has a processor, disk, and ram". Berikut merupakan tampilan keluaran dari program yang telah dibuat :
 
 ![hasil output c++](https://user-images.githubusercontent.com/99456332/155890065-bd689eb0-0d59-4640-906b-88c398686e8b.png)
